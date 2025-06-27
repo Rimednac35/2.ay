@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Aşk ve Kahkaha</title>
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #ffe6e6;
+    color: #5a2a27;
+    text-align: center;
+    padding: 2rem;
+  }
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+  }
+  p {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    margin-bottom: 2rem;
+  }
+  .message {
+    background: #fff0f0;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(90, 42, 39, 0.2);
+    max-width: 600px;
+    margin: 0 auto;
+    font-style: italic;
+  }
+  button {
+    background: #d94c4c;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  button:hover {
+    background: #a03030;
+  }
+</style>
+</head>
+<body>
+  <h1>Aşk ve Kahkaha — Bizim Hikayemiz</h1>
+  <p>Bir ay oldu, ama sanki yıllardır tanıyoruz!</p>
+  <div class="message">
+    “Sen yanımda olunca dünya daha tatlı, kahvem daha güzel… Daha nice günler, aylar, yıllar birlikte, tamam mı?”
+  </div>
+  <button onclick="alert('Teşekkürler! Daha nice güzel anılarımız olsun!')">Bize Katıl</button>
+</body>
+</html>
