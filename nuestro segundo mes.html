@@ -3,54 +3,131 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Aşk ve Kahkaha</title>
+<title>2. Ayımız Kutlu Olsun, Canım!</title>
 <style>
+  @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
   body {
-    font-family: 'Poppins', sans-serif;
-    background: #ffe6e6;
-    color: #5a2a27;
-    text-align: center;
+    margin: 0;
     padding: 2rem;
+    font-family: 'Comic Neue', cursive, sans-serif;
+    background: linear-gradient(135deg, #ffdde1, #ee9ca7);
+    color: #330a12;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
   }
+
   h1 {
     font-size: 3rem;
-    margin-bottom: 0;
+    margin-bottom: 0.2rem;
+    text-shadow: 1px 1px 3px #b84a4a;
   }
-  p {
-    font-size: 1.2rem;
-    margin-top: 0.2rem;
+
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
     margin-bottom: 2rem;
-  }
-  .message {
-    background: #fff0f0;
-    padding: 1.5rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(90, 42, 39, 0.2);
-    max-width: 600px;
-    margin: 0 auto;
     font-style: italic;
+    color: #660000cc;
   }
+
+  .message-box {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 1.8rem 2.2rem;
+    border-radius: 20px;
+    max-width: 600px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    user-select: none;
+  }
+
+  .love-note {
+    font-weight: 700;
+    margin-top: 1rem;
+    color: #a32f2f;
+  }
+
+  .dreams {
+    max-width: 600px;
+    background: rgba(255,255,255,0.6);
+    border-radius: 15px;
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.15rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    user-select: none;
+  }
+
   button {
-    background: #d94c4c;
-    color: white;
+    background: #cc4b4b;
     border: none;
-    padding: 1rem 2rem;
-    border-radius: 25px;
-    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.1rem;
+    padding: 0.85rem 2.5rem;
+    border-radius: 35px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    box-shadow: 0 6px 12px #b23838;
+    transition: background 0.3s ease, transform 0.2s ease;
+    user-select: none;
   }
+
   button:hover {
-    background: #a03030;
+    background: #9b3232;
+    transform: scale(1.05);
+  }
+
+  footer {
+    margin-top: auto;
+    font-size: 0.9rem;
+    color: #660000aa;
+    user-select: none;
+  }
+
+  /* Responsive */
+  @media(max-width: 640px) {
+    h1 {
+      font-size: 2.2rem;
+    }
+    .message-box, .dreams {
+      font-size: 1rem;
+      padding: 1.2rem 1.5rem;
+      max-width: 90vw;
+    }
   }
 </style>
 </head>
 <body>
-  <h1>Aşk ve Kahkaha — Bizim Hikayemiz</h1>
-  <p>Bir ay oldu, ama sanki yıllardır tanıyoruz!</p>
-  <div class="message">
-    “Sen yanımda olunca dünya daha tatlı, kahvem daha güzel… Daha nice günler, aylar, yıllar birlikte, tamam mı?”
+
+  <h1>2. Ayımız Kutlu Olsun, Canım! 🎉</h1>
+  <h2>Seninle her gün yeni bir macera...</h2>
+
+  <div class="message-box">
+    Canım,<br><br>
+    Bir ay oldu birlikteyiz, ama bazen öyle hissediyorum ki seni çok daha uzun zamandır tanıyorum — hatta bazen sabah uyanınca “Acaba bugün yine beni sinirlendirecek mi?” diye düşünüyorum, ama sonra gülüşüne bakıp tüm sinirim uçup gidiyor! 😄<br><br>
+    Seninle her an hem eğlenceli hem de huzurlu. Hayatımda olduğun için çok şanslıyım. Daha nice aylar, yıllar, kahkahalar ve bolca sevgi bizimle olsun.<br><br>
+    Sana olan sevgim, kahveye olan tutkumdan bile büyük, inan bana! ☕❤️<br><br>
+    <span class="love-note">İyi ki varsın, iyi ki benimlesin.</span>
   </div>
-  <button onclick="alert('Teşekkürler! Daha nice güzel anılarımız olsun!')">Bize Katıl</button>
+
+  <div class="dreams">
+    <strong>Geleceğe dair hayalim:</strong><br>
+    Birlikte kurduğumuz hayallerle dolu, el ele geçireceğimiz bir hayat…  
+    Maceralar, gülüşler ve sonsuz sevgiyle dolu nice yıllar.  
+    Seninle her gün yeni bir sayfa yazmak, benim en büyük mutluluğum.
+  </div>
+
+  <button onclick="window.open('https://youtu.be/jqkTkZhRuoo?si=GxjV79S9meOD7EhR', '_blank')">Kahve ve Sen: Aşkın Şarkısı ☕🎶</button>
+
+  <footer>
+    <p>© 2025 Senin En Eğlenceli Web Mesajın | Kral Candemir'den</p>
+  </footer>
+
 </body>
 </html>
